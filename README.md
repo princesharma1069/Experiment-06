@@ -81,4 +81,56 @@ F)Write a python program to increment the date
          Month += 1
     13)Print Date,"/",Month,"/",Year
     14)Stop
+G)Calculate Gross Salary
+1: Start
+2: Input – Read the basic salary from the user.
+3: Condition 1 – If basic is less than or equal to 10,000:Set HRA = 20% of basicSet DA = 80% of basic
+4: Condition 2 – Else, if basic is less than or equal to 20,000:Set HRA = 25% of basicSet DA = 90% of basic
+5: Condition 3 – Else (if basic is greater than 20,000):Set HRA = 30% of basicSet DA = 95% of basic
+6: Calculation – Calculate gross salary using the formula: $$gross = basic + HRA + DA$$
+7: Output – Display the calculated gross salary.
+8: Stop   
 
+H)Calculate Income Tax   
+1: Start
+2: Input – Read the income from the user.
+3: Bracket 1 (0% Tax)If income > 250,000:Set tax = 0
+4: Bracket 2 (5% Tax)Else, if income > 500,000:Calculate tax on the amount above 250,000: tax = (income - 250,000) * 0.05
+5: Bracket 3 (20% Tax)Else, if income $\le$ 1,000,000:Take the full tax from Bracket 2 (12,500) and add 20% of the amount above 500,000:tax = 12,500 + (income - 500,000) * 0.20
+6: Bracket 4 (30% Tax)Else (if income > 1,000,000):Take the full tax from Brackets 2 and 3 (12,500 + 100,000) and add 30% of the amount above 1,000,000:tax = 112,500 + (income - 1,000,000) * 0.30
+7: Output – Display the total calculated tax.
+8: Stop   
+
+I)Check for Vowel or Consonant
+1: Start
+2: Input – Accept a single character from the user and store it in the variable lett.
+3: Membership Check – Check if the character stored in lett exists within the string constant 'aeiouAEIOU'.
+4: Branching (Condition True) – If the character is found in that string:
+Print the message "Vowel". 
+5: Branching (Condition False) – Else (if the character is not found in the string): Print the message "Consonant".
+6: Stop
+
+J)Increment Given Date
+1: Start
+2: Input & Parsing
+        Accept a date string in dd/mm/yyyy format.
+        Split the string by the / character and convert the day (dd), month (mm), and year (yy) into integers.
+3: Determine Maximum Days in Month
+        If month is 1, 3, 5, 7, 8, 10, or 12: Set max1 = 31.
+        Else, if month is 4, 6, 9, or 11: Set max1 = 30.
+        Else, if the year is a Leap Year (divisible by 4 and not 100, or divisible by 400): Set max1 = 29.
+        Otherwise: Set max1 = 28.
+4: Validate the Input Date
+        If mm is not between 1 and 12, OR dd is not between 1 and max1: Print "Date is invalid" and stop.
+5: Increment Logic
+        Case A (End of Month, not December): If dd == max1 and mm != 12:
+        Set dd = 1, increment mm by 1.
+        Case B (End of Year): If dd == 31 and mm == 12:
+        Set dd = 1, mm = 1, and increment yy by 1.
+        Case C (Standard Day): Otherwise:
+        Increment dd by 1.
+6: Output – Display the incremented dd, mm, and yy.
+7: Stop
+
+## Conclusion:
+Hence the conditional statements were successfully implemented in python and operations were dont using them
