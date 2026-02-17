@@ -11,42 +11,42 @@ Relational operators (>, <, >=, <=, ==, !=) to compare values.
 The if-elif-else ladder is used when multiple conditions need to be checked.  
 ## Algorithm:
 A)check whether a number is positive,negative or zero
-    1)Start
-    2)Input a using a = int(input("Enter a number:"))
-    3)If a > 0, print "Number is positive"
-    4)Else if a < 0, print "Number is negative"
-    5)Else, print "Number is zero"
-    6)Stop
+1)Start
+2)Input a using a = int(input("Enter a number:"))
+3)If a > 0, print "Number is positive"
+4)Else if a < 0, print "Number is negative"
+5)Else, print "Number is zero"
+6)Stop 
 B)check whether a given number is even or odd
-    1)Start
-    2)Input a using a = int(input("Enter a number:"))
-    3)If a % 2 == 0, print "Number is Even"
-    4)Else, print "Number is Odd"
-    5)Stop
+1)Start
+2)Input a using a = int(input("Enter a number:"))
+3)If a % 2 == 0, print "Number is Even"
+4)Else, print "Number is Odd"
+5)Stop
 C)Find the largest of three numbers
-    Start
-    1)Input a using a = int(input("Enter a number a:"))
-    2)Input b using b = int(input("Enter a number b:"))
-    3)Input c using c = int(input("Enter a number c:"))
-    4)If a > b and a > c, print "a is the greatest number"
-    5)Else if b > a and b > c, print "b is the greatest number"
-    6)Else, print "c is the greatest number"
-    7)Stop
+Start
+1)Input a using a = int(input("Enter a number a:"))
+2)Input b using b = int(input("Enter a number b:"))
+3)Input c using c = int(input("Enter a number c:"))
+4)If a > b and a > c, print "a is the greatest number"
+5)Else if b > a and b > c, print "b is the greatest number"
+6)Else, print "c is the greatest number"
+7)Stop
 D)Get input from user for one subject and calculate the grade using if-elif-else
-    1)Start
-    2)Input subject using subject = int(input("Enter a subject:"))
-    3)If subject >= 90, print "Grade A"
-    4)Else if subject >= 75, print "Grade B"
-    5)Else if subject >= 60, print "Grade C"
-    6)Else if subject >= 40, print "Grade D"
-    7)Else, print "Fail"
-    8)Stop
+1)Start
+2)Input subject using subject = int(input("Enter a subject:"))
+3)If subject >= 90, print "Grade A"
+4)Else if subject >= 75, print "Grade B"
+5)Else if subject >= 60, print "Grade C"
+6)Else if subject >= 40, print "Grade D"
+7)Else, print "Fail"
+8)Stop
 E)Check whether a given year is a leap year or not
-    1)Start
-    2)Input year using year = int(input("Enter a year:"))
-    3)If (year % 4 == 0 and year % 100 != 0) or year % 400 == 0, print "Leap year"
-    4)Else, print "Not a leap year"
-    5)Stop
+1)Start
+2)Input year using year = int(input("Enter a year:"))
+3)If (year % 4 == 0 and year % 100 != 0) or year % 400 == 0, print "Leap year"
+4)Else, print "Not a leap year"
+5)Stop
 F)Write a python program to increment the date
     Start
     1)Input Date using Date = int(input("Enter a date:"))
